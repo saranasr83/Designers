@@ -1,73 +1,113 @@
+// import React from "react";
+// import "./Navbar.css";
+// import { Link } from "react-router-dom"
+
+
+// const Navbar = props => (
+//     // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+//     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+//     <nav className="navbar navbar-expand-lg">
+//         <div>
+//             <ul className="navbar-nav">
+//                 <li
+//                 className={
+//                     window.location.pathname === "/" ||
+//                     window.location.pathname === "/home"
+//                     ? "nav-item active"
+//                     : "nav-item"
+//                 }>
+//                     <Link className="nav-link" to="/">
+//                         Home
+//                     </Link>
+//                 </li>
+//                 <li
+//                 className={
+//                     window.location.pathname === "/teaching"
+//                     ? "nav-item active"
+//                     : "nav-item"
+//                 }>
+//                     <Link className="nav-link" to="/teaching">
+//                         The Teachings
+//                     </Link>
+//                 </li>
+//                 <li
+//                 className={
+//                     window.location.pathname === "/about"
+//                     ? "nav-item active"
+//                     : "nav-item"
+//                 }>
+//                     <Link className="nav-link" to="/about">
+//                         About the Teacher
+//                     </Link>
+//                 </li>
+//                 <li
+//                 className={
+//                     window.location.pathname === "/meditation"
+//                     ? "nav-item active"
+//                     : "nav-item"
+//                 }>
+//                     <Link className="nav-link" to="/meditation">
+//                         Why Meditation
+//                     </Link>
+//                 </li>
+//                 <li
+//                 className={
+//                     window.location.pathname === "/pastevents"
+//                     ? "nav-item active"
+//                     : "nav-item"
+//                 }>
+//                     <Link className="nav-link" to="/pastevents">
+//                         Past Events
+//                     </Link>
+//                 </li>
+
+//             </ul>
+//         </div>
+
+//     </nav>
+
+// )
+
+
+
+// export default Navbar;
+
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-
-const Navbar = props => (
-    // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+const Navbar = () => (
     <nav className="navbar navbar-expand-lg">
         <div>
             <ul className="navbar-nav">
-                <li
-                className={
+                <li className={
                     window.location.pathname === "/" ||
                     window.location.pathname === "/home"
-                    ? "nav-item active"
-                    : "nav-item"
-                }>
+                    ? "nav-item active" : "nav-item"               
+                    }>
                     <Link className="nav-link" to="/">
                         Home
                     </Link>
                 </li>
-                <li
-                className={
-                    window.location.pathname === "/teaching"
-                    ? "nav-item active"
-                    : "nav-item"
+                <li className={
+                    window.location.pathname === "/articles"
+                    ? "nav-item active" : "nav-item"
                 }>
-                    <Link className="nav-link" to="/teaching">
-                        The Teachings
+                    <Link className="nav-link" to="/articles">
+                        Articles
                     </Link>
                 </li>
-                <li
-                className={
-                    window.location.pathname === "/about"
-                    ? "nav-item active"
-                    : "nav-item"
+                <li className={
+                    window.location.pathname === "/register"
+                    ? "nav-item active" : "nav-item"
                 }>
-                    <Link className="nav-link" to="/about">
-                        About the Teacher
+                    <Link className="nav-link" to="/register">
+                        Register
                     </Link>
                 </li>
-                <li
-                className={
-                    window.location.pathname === "/meditation"
-                    ? "nav-item active"
-                    : "nav-item"
-                }>
-                    <Link className="nav-link" to="/meditation">
-                        Why Meditation
-                    </Link>
-                </li>
-                <li
-                className={
-                    window.location.pathname === "/pastevents"
-                    ? "nav-item active"
-                    : "nav-item"
-                }>
-                    <Link className="nav-link" to="/pastevents">
-                        Past Events
-                    </Link>
-                </li>
-
             </ul>
         </div>
-
     </nav>
-
 )
-
-
 
 export default Navbar;

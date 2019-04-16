@@ -1,4 +1,4 @@
-nav.navbar.navbar-default {
+/* nav.navbar.navbar-default {
     margin-bottom: 0; 
 }
 .navbar {
@@ -20,4 +20,18 @@ nav.navbar.navbar-default {
 }
 
 
+ */
 
+.navbar {
+    background-color: rgb(10, 186, 181);
+} 
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+.nav-link:hover { 
+    color: purple; 
+} 
+.active>.nav-link {
+    background-color: red;
+}

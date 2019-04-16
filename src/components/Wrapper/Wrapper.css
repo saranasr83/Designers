@@ -1,4 +1,4 @@
-body{
+/* body{
   background-color: black;
 
 }
@@ -7,5 +7,11 @@ body{
     width: 100%;
     background-color: black;
 
-  }
+  } */
   
+/* keep an eye on padding-bottom */
+
+.wrapper {
+  min-height: 100%;
+  padding-bottom: 100px;
+}
