@@ -1,12 +1,11 @@
 import React from "react";
-// import Container from "../components/Container";
+import Container from "../components/Container";
 
 const Articles = () => (
     <div>
-        {/* <Container style={{color:"white"}}> */}
-            <h1> What we're about</h1>
-            
-        {/* </Container> */}
+        <Container>
+            <h1> You can find the useful material to buy your designer items here!! </h1>   
+        </Container>
     </div>
 )
 

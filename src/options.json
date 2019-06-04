@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What ITEM are you looking for:",
+        "id" : 1,
+        "name": "itemName",
+        "item1": "Bag",
+        "item2": "Shoes",
+        "item3": "Belt"
+    },
+    {
+        "question": "What BRAND are you looking for:",
+        "id" : 2,
+        "name": "brandName",
+        "item1": "Chanel",
+        "item2": "Dior",
+        "item3": "LV",
+        "item4": "Prada",
+        "item5": "Chloe",
+        "item6": "Hermes",
+        "item7": "Gucci",
+        "item8": "YSL",
+        "item9": "Fendi",
+        "item10": "Celine",
+        "item11": "Burberry",
+        "item12": "Givenchy",
+        "item13": "Valentino"
+    }
+
+]

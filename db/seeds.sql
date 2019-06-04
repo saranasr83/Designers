@@ -1,7 +1,3 @@
-DROP DATABASE IF EXISTS products_db;
-CREATE DATABASE products_db;
-
-USE products_db;
 
 
 CREATE TABLE items (
@@ -15,6 +11,6 @@ CREATE TABLE items (
 );
 
 INSERT INTO items (kind, brand, model, size, price)
-VALUES ("bag", "Chanel", "Boy", "Medium", 5200),("bag", "Dior", "Lady", "Medium", 4200);
+VALUES ("bag", "Chanel", "Boy", "Medium", 5200),("bag", "Dior", "Lady", "Medium", 4200),("bag", "Chanel", "Classic", "Medium", 4200),("belt", "Chanel", "Vanity", "Small", 3200);
 
 SELECT * FROM items;

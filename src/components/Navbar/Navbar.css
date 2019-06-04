@@ -1,37 +1,15 @@
-/* nav.navbar.navbar-default {
-    margin-bottom: 0; 
-}
-.navbar {
-    background-color: black;
-}
-.navbar-nav .nav-link {
-    font-family: serif;
-}    
-
-.nav-link {
-    color: white;
-    font-size: 20px;
-}
-.nav-link:hover { 
-    color: rgb(60, 165, 250); 
-}  
-.active>.nav-link {
-    color: rgb(60, 165, 250);
-}
-
-
- */
 
 .navbar {
-    background-color: rgb(10, 186, 181);
+    background-color: rgb(11, 199, 193);
 } 
 .nav-link {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: "Santral W01"
 }
 .nav-link:hover { 
-    color: purple; 
+    color: rgb(197, 241, 241); 
 } 
 .active>.nav-link {
-    background-color: red;
+    background-color: rgb(138, 243, 243);
 }
